@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ဆက်သွယ်ရန်</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}
+body{min-height:100vh;background:#fff;color:#202733;font-family:"Noto Sans Myanmar","Myanmar Text",Arial,sans-serif;overflow:hidden}
+.page{min-height:100vh;display:flex;align-items:center;justify-content:center;position:relative;padding:40px 24px}
+.page:before,.page:after{content:"";position:absolute;width:420px;height:420px;border-radius:50%;background:#faf8f1;border:1px solid #e5c45b}
+.page:before{left:-250px;top:-250px}.page:after{right:-280px;bottom:-280px}
+.content{position:relative;z-index:2;width:min(900px,100%);text-align:center}
+.accent{width:70px;height:5px;border-radius:10px;background:#dca900;margin:0 auto 34px}
+h1{margin:0 auto;max-width:760px;font-size:clamp(34px,5vw,62px);line-height:1.45;font-weight:700;letter-spacing:-1.5px}
+.description{margin:22px auto 42px;max-width:690px;color:#737b86;font-size:clamp(15px,2vw,19px);line-height:2}
+.contact-btn{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-width:330px;padding:21px 42px;border-radius:60px;background:linear-gradient(135deg,#e6b72d,#d39b00);color:#fff;text-decoration:none;font-size:clamp(19px,2.5vw,25px);font-weight:700;box-shadow:0 14px 35px rgba(211,155,0,.22);transition:.22s}
+.contact-btn:hover{transform:translateY(-3px);box-shadow:0 18px 42px rgba(211,155,0,.30)}
+.icon{font-size:25px}.arrow{font-size:28px}
+@media(max-width:600px){.page{padding:30px 20px}.accent{margin-bottom:25px}h1{font-size:31px;letter-spacing:-.8px}.description{font-size:14px;line-height:1.9;margin:18px auto 32px}.contact-btn{min-width:270px;padding:18px 28px;font-size:18px;gap:13px}.icon{font-size:21px}.arrow{font-size:24px}}
+</style>
+</head>
+<body>
+<main class="page">
+<section class="content">
+<div class="accent"></div>
+<h1>သင့်ရဲ့လိုအပ်ချက်ကို<br>ဆက်သွယ်မေးမြန်းနိုင်ပါသည်</h1>
+<p class="description">ကျွန်ုပ်တို့နှင့် တိုက်ရိုက်ဆက်သွယ်ပြီး<br>သင်လိုအပ်ချက်များကို မေးမြန်းနိုင်ပါသည်။</p>
+<a class="contact-btn" href="https://cutt.ly/TapinShweHtee" target="_blank" rel="noopener noreferrer">
+<span class="icon">➤</span><span>ဆက်သွယ်ရန်</span><span class="arrow">→</span>
+</a>
+</section>
+</main>
+</body>
+</html>
